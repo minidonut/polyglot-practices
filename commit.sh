@@ -1,5 +1,5 @@
+#!/bin/bash
+
 git add *
 git commit -m "add another algorithms"
-git push -u origin master
-minidonut
-ejdmshab1
+git push https://minidonut:ejdmshab1@github.com/minidonut/polyglot-practices

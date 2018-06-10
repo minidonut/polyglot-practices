@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const program = require('commander');
 const chalk = require('chalk');
 const fs = require('fs');
@@ -272,6 +274,8 @@ const findpath = source => {
 }
 
 // noSuchFile :: (String file) => file -> IO ()
+
+
 const noSuchFile = file => {
     console.error(chalk.red('ERROR: '), `cannot find "${file}"`);
     process.exit(1);
